@@ -1,0 +1,38 @@
+{
+  "name": "dep-changelog",
+  "version": "1.1.3",
+  "description": "Effortlessly track changes in package.json dependencies and devDependencies over time using Git commit history.",
+  "main": "./src/index.js",
+  "bin": {
+    "dep-changelog": "./src/index.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chavakane/dep-changelog.git"
+  },
+  "keywords": [
+    "package.json",
+    "changelog",
+    "dependencies",
+    "devDependencies",
+    "history"
+  ],
+  "author": "Salvador Soberanes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chavakane/dep-changelog/issues"
+  },
+  "homepage": "https://github.com/chavakane/dep-changelog#readme",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
